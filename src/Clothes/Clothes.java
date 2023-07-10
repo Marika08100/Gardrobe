@@ -1,3 +1,5 @@
+package Clothes;
+
 import Types.Condition;
 import Types.Gender;
 
@@ -26,7 +28,7 @@ public abstract class Clothes {
 
     @Override
     public String toString() {
-        return "Clothes{" +
+        return "Clothes.Clothes{" +
                 "type='" + type + '\'' +
                 ", gender=" + gender +
                 ", condition=" + condition +

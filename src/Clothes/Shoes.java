@@ -16,7 +16,7 @@ public class Shoes extends Clothes {
     }
     @Override
     public String toString() {
-        return "Clothes.Shoes{" +
+        return "Clothes.Clothes.Shoes{" +
                 "size=" + size +
                 '}';
     }

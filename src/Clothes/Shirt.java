@@ -16,7 +16,7 @@ public class Shirt extends Clothes {
     }
     @Override
     public String toString() {
-        return "Clothes.Shirt{" +
+        return "Clothes.Clothes.Shirt{" +
                 "shirtLength=" + shirtLength +
                 '}';
     }

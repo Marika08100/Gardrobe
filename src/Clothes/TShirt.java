@@ -8,7 +8,7 @@ public class TShirt extends Clothes {
     private boolean hasPattern;
 
     public TShirt(Gender gender, Condition condition, String color, boolean hasPattern) {
-        super("T-Clothes.Shirt",gender,condition);
+        super("T-Clothes.Clothes.Shirt",gender,condition);
         this.color = color;
         this.hasPattern = hasPattern;
     }
@@ -31,7 +31,7 @@ public class TShirt extends Clothes {
 
     @Override
     public String toString() {
-        return "Clothes.TShirt{" +
+        return "Clothes.Clothes.TShirt{" +
                 "color='" + color + '\'' +
                 ", hasPattern=" + hasPattern +
                 '}';

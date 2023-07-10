@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e578342c-c8fd-415d-b222-875fdb2dce37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gardrobe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/clothes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothes/Coats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothes/Pants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothes/Shirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothes/Shoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothes/TShirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileReaderHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gardrobe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/CoatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/PantsLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/ShirtLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/SocksType.java" afterDir="false" />
+    <list default="true" id="e578342c-c8fd-415d-b222-875fdb2dce37" name="Changes" comment="enums are rdy">
+      <change afterPath="$PROJECT_DIR$/src/Wardrobe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gardrobe.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +58,19 @@
       <option name="presentableId" value="Default" />
       <updated>1689007668164</updated>
     </task>
+    <task id="LOCAL-00001" summary="enums are rdy">
+      <option name="closed" value="true" />
+      <created>1689010656379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689010656379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="enums are rdy" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums are rdy" />
   </component>
 </project>
