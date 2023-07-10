@@ -1,19 +1,23 @@
 import Clothes.Clothes;
+import Types.Condition;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Wardrobe {
     List<Clothes> clothes = new ArrayList<>();
-    public Wardrobe(Clothes clothes){
+
+    public Wardrobe(Clothes clothes) {
         this.clothes = new ArrayList<>();
     }
-    public void addClothes(Clothes clothes){
+
+    public void addClothes(Clothes clothes) {
         this.clothes.add(clothes);
     }
+
     // Szortírozd a ruháimat a fajtájuk szerint!
     // Azaz gondoskodj arról, hogy a pólók, az ingek, a nadrágok stb. külön-külön legyenek.
-    public void sortClothesByType(){
+    public void sortClothesByType() {
         List<Clothes> tShirts = new ArrayList<>();
         List<Clothes> shirts = new ArrayList<>();
         List<Clothes> pants = new ArrayList<>();
@@ -21,13 +25,13 @@ public class Wardrobe {
         List<Clothes> shoes = new ArrayList<>();
         List<Clothes> socks = new ArrayList<>();
 
-        for(Clothes clothes : clothes){
-            switch (clothes.getType()){
+        for (Clothes clothes : clothes) {
+            switch (clothes.getType()) {
                 case "T-Shirt":
                     tShirts.add(clothes);
                 case "Shirt":
                     shirts.add(clothes);
-                case "Pants" :
+                case "Pants":
                     pants.add(clothes);
                 case "Coat":
                     coats.add(clothes);
@@ -75,4 +79,32 @@ public class Wardrobe {
         }
         System.out.println();
     }
+
+//        Segíts nekem a ruhák selejtezésében a következőképpen:
+//        A ruhákat az állapotuk szerint selejtezem…
+//        a 4-es és az 5-ös állapotú ruhákat megtartom,
+//                a 2-as és a 3-es állapotú ruhákat eladományozom,
+//                az 1-es ruhákat kidobom.
+
+    public void discardClothes() {
+        int origin = clothes.size();
+        int discorded = 0;
+        int donated = 0;
+        List<Clothes> clothesList = new ArrayList<>();
+        for(var actual : clothes){
+            Condition condition = actual.getCondition();
+
+            if(condition == Condition.BEST || condition == Condition.GOOD){
+                clothesList.add(actual);
+            } if(condition == Condition.AVERAGE || condition == Condition.BAD){
+                donated++;
+            }if(condition == Condition.WORST){
+                discorded++;
+            }
+            clothes = clothesList;
+
+        }
+
+    }
+
 }
