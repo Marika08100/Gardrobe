@@ -1,8 +1,8 @@
 package Types;
 
 public enum  Gender {
-    MALE,
-    FEMALE,
+    FÉRFI,
+    NŐI,
     UNISEX,
-    CHILD;
+    GYEREK;
 }

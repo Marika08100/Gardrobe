@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e578342c-c8fd-415d-b222-875fdb2dce37" name="Changes" comment="6.task is rdy">
-      <change afterPath="$PROJECT_DIR$/src/Clothes/Sock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothes/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Clothes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clothes/Coats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Coats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clothes/Pants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Pants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clothes/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Shirt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clothes/Shoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Shoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothes/Sock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Sock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clothes/TShirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/TShirt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/CoatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/CoatType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/PantsLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/PantsLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/SocksType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/SocksType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wardrobe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wardrobe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

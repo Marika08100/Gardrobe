@@ -6,7 +6,7 @@ import Types.Gender;
 public class Shoes extends Clothes {
     private final int size;
 
-    public Shoes(String type, Gender gender, Condition condition, int size) {
+    public Shoes(Gender gender, Condition condition, int size) {
         super("cipő", gender, condition);
         this.size = size;
     }

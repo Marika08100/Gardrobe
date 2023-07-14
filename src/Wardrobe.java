@@ -28,20 +28,27 @@ public class Wardrobe {
             switch (clothes.getType()) {
                 case "póló":
                     tShirts.add(clothes);
+                    break;
                 case "ing":
                     shirts.add(clothes);
-                case "Pants":
+                    break;
+                case "nadrág":
                     pants.add(clothes);
-                case "Coat":
+                    break;
+                case "kabát":
                     coats.add(clothes);
-                case "Shoes":
+                    break;
+                case "cipő":
                     shoes.add(clothes);
-                case "Sock":
+                    break;
+                case "zokni":
                     socks.add(clothes);
+                    break;
                 default:
                     System.out.println("This clothes is not in my wardrobe");
             }
         }
+
         System.out.println("T-Shirts:");
         for (Clothes clothing : tShirts) {
             System.out.println(clothing.getGender() + " - " + clothing.getCondition());
@@ -79,36 +86,33 @@ public class Wardrobe {
         System.out.println();
     }
 
-//        Segíts nekem a ruhák selejtezésében a következőképpen:
-//        A ruhákat az állapotuk szerint selejtezem…
-//        a 4-es és az 5-ös állapotú ruhákat megtartom,
-//                a 2-as és a 3-es állapotú ruhákat eladományozom,
-//                az 1-es ruhákat kidobom.
-
+    // Segíts nekem a ruhák selejtezésében a következőképpen:
+    // A ruhákat az állapotuk szerint selejtezem…
+    // a 4-es és az 5-ös állapotú ruhákat megtartom,
+    // a 2-es és a 3-es állapotú ruhákat eladományozom,
+    // az 1-es ruhákat kidobom.
     public void discardClothes() {
-        int origin = clothes.size();
-        int discorded = 0;
-        int donated = 0;
-        List<Clothes> clothesList = new ArrayList<>();
-        for(var actual : clothes){
-            Condition condition = actual.getCondition();
+        int originalCount = clothes.size();
+        int discardedCount = 0;
+        int donatedCount = 0;
+        List<Clothes> validClothes = new ArrayList<>();
 
-            if(condition == Condition.BEST || condition == Condition.GOOD){
-                clothesList.add(actual);
-            } if(condition == Condition.AVERAGE || condition == Condition.BAD){
-                donated++;
-            }if(condition == Condition.WORST){
-                discorded++;
+        for (Clothes clothing : clothes) {
+            int condition = clothing.getCondition().getValue();
+
+            if (condition >= 4) {
+                validClothes.add(clothing);
+            } else if (condition>= 2) {
+                donatedCount++;
+            } else if (condition == 1) {
+                discardedCount++;
             }
-            clothes = clothesList;
-
-
-            System.out.println("Original count: " + origin);
-            System.out.println("Discarded count: " + discorded);
-            System.out.println("Donated count: " + donated);
-
         }
 
-    }
+        clothes = validClothes;
 
+        System.out.println("Original count: " + originalCount);
+        System.out.println("Discarded count: " + discardedCount);
+        System.out.println("Donated count: " + donatedCount);
+    }
 }

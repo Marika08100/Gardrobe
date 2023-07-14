@@ -1,7 +1,7 @@
 package Types;
 
 public enum PantsLength {
-    LONG,
-    KNEE,
-    SHORT;
+    RÖVID,
+    HOSSZÚ,
+    TÉRDNADRÁG;
 }

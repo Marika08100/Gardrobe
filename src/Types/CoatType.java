@@ -1,8 +1,8 @@
 package Types;
 
 public enum CoatType {
-    RAINCOAT,
-    WINTER,
-    AUTUMN;
+    ESŐKABÁT,
+    TÉLI,
+    ŐSZI;
 
 }

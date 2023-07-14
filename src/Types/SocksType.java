@@ -1,7 +1,7 @@
 package Types;
 
 public enum SocksType {
-    SECRET,
-    REGULAR,
-    KNEE;
+    TITOKZOKNI,
+    NORMÁL,
+    TÉRDZOKNI;
 }

@@ -1,7 +1,8 @@
 package Clothes;
 
-import Types.Condition;
 import Types.Gender;
+import Types.Condition;
+
 
 public class TShirt extends Clothes {
     private String color;

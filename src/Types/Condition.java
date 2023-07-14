@@ -1,5 +1,4 @@
 package Types;
-
 public enum Condition {
     WORST(1),
     BAD(2),

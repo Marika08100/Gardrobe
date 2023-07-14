@@ -4,7 +4,7 @@ import Types.Condition;
 import Types.Gender;
 import Types.SocksType;
 
-class Sock extends Clothes {
+public class Sock extends Clothes {
     private final SocksType sockType;
 
     public Sock(Gender gender, Condition condition, SocksType sockType) {

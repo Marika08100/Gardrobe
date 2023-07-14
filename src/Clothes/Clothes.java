@@ -26,6 +26,7 @@ public abstract class Clothes {
         return condition;
     }
 
+
     @Override
     public String toString() {
         return "Clothes.Clothes{" +

@@ -1,12 +1,12 @@
 package Clothes;
 
-import Types.Condition;
 import Types.Gender;
 import Types.ShirtLength;
+import Types.Condition;
 
 public class Shirt extends Clothes {
     private final ShirtLength shirtLength;
-    public Shirt(String type, Gender gender, Condition condition, ShirtLength shirtLength) {
+    public Shirt(Gender gender, Condition condition, ShirtLength shirtLength) {
         super ("ing",gender, condition);
         this.shirtLength = shirtLength;
     }
