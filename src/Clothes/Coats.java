@@ -2,14 +2,14 @@ package Clothes;
 
 import Types.CoatType;
 import Types.Gender;
-import Types.Condition;
 
 
 public class Coats extends Clothes {
     private final CoatType coatType;
 
-    public Coats(Gender gender, Condition condition, CoatType coatType) {
-        super("kabát", gender, condition);
+
+    public Coats(Gender gender, int condition,CoatType coatType) {
+        super("kabát", gender,condition);
         this.coatType = coatType;
     }
 
@@ -19,8 +19,9 @@ public class Coats extends Clothes {
 
     @Override
     public String toString() {
-        return "Clothes.Clothes.Coats{" +
+        return "Coats{" +
                 "coatType=" + coatType +
+                ", condition="  +
                 '}';
     }
 }

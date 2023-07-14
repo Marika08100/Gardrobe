@@ -1,5 +1,4 @@
 import Clothes.Clothes;
-import Types.Condition;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -98,7 +97,7 @@ public class Wardrobe {
         List<Clothes> validClothes = new ArrayList<>();
 
         for (Clothes clothing : clothes) {
-            int condition = clothing.getCondition().getValue();
+            int condition = clothing.getCondition();
 
             if (condition >= 4) {
                 validClothes.add(clothing);
@@ -111,8 +110,8 @@ public class Wardrobe {
 
         clothes = validClothes;
 
-        System.out.println("Original count: " + originalCount);
-        System.out.println("Discarded count: " + discardedCount);
-        System.out.println("Donated count: " + donatedCount);
+        System.out.println("Ennyi ruhám volt: " + originalCount);
+        System.out.println("Ennyit kidobtam:  " + discardedCount);
+        System.out.println("Ennyit eladományoztam: " + donatedCount);
     }
 }

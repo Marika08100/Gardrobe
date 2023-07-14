@@ -1,13 +1,12 @@
 package Clothes;
 
-import Types.Condition;
 import Types.Gender;
 
 public class Shoes extends Clothes {
     private final int size;
 
-    public Shoes(Gender gender, Condition condition, int size) {
-        super("cipő", gender, condition);
+    public Shoes(Gender gender, int condition,int size) {
+        super("cipő", gender,condition);
         this.size = size;
     }
 

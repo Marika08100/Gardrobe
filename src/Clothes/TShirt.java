@@ -1,14 +1,13 @@
 package Clothes;
 
 import Types.Gender;
-import Types.Condition;
 
 
 public class TShirt extends Clothes {
     private String color;
     private boolean hasPattern;
 
-    public TShirt(Gender gender, Condition condition, String color, boolean hasPattern) {
+    public TShirt(Gender gender, int condition,String color, boolean hasPattern) {
         super("póló",gender,condition);
         this.color = color;
         this.hasPattern = hasPattern;
