@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e578342c-c8fd-415d-b222-875fdb2dce37" name="Changes" comment="5.task is rdy">
+    <list default="true" id="e578342c-c8fd-415d-b222-875fdb2dce37" name="Changes" comment="6.task is rdy">
+      <change afterPath="$PROJECT_DIR$/src/Clothes/Sock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothes/Coats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Coats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothes/Pants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Pants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothes/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Shirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothes/Shoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/Shoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothes/TShirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothes/TShirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wardrobe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wardrobe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689011247709</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6.task is rdy">
+      <option name="closed" value="true" />
+      <created>1689011936208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689011936208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="enums are rdy" />
     <MESSAGE value="5.task is rdy" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.task is rdy" />
+    <MESSAGE value="6.task is rdy" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.task is rdy" />
   </component>
 </project>

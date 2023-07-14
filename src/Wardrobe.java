@@ -7,8 +7,7 @@ import java.util.List;
 public class Wardrobe {
     List<Clothes> clothes = new ArrayList<>();
 
-    public Wardrobe(Clothes clothes) {
-        this.clothes = new ArrayList<>();
+    public Wardrobe() {
     }
 
     public void addClothes(Clothes clothes) {
@@ -27,9 +26,9 @@ public class Wardrobe {
 
         for (Clothes clothes : clothes) {
             switch (clothes.getType()) {
-                case "T-Shirt":
+                case "póló":
                     tShirts.add(clothes);
-                case "Shirt":
+                case "ing":
                     shirts.add(clothes);
                 case "Pants":
                     pants.add(clothes);
@@ -102,6 +101,11 @@ public class Wardrobe {
                 discorded++;
             }
             clothes = clothesList;
+
+
+            System.out.println("Original count: " + origin);
+            System.out.println("Discarded count: " + discorded);
+            System.out.println("Donated count: " + donated);
 
         }
 

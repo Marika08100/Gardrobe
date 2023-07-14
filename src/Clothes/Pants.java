@@ -7,7 +7,7 @@ import Types.PantsLength;
 public class Pants extends Clothes {
     private final PantsLength pantsLength;
     public Pants(String type, Gender gender, Condition condition, PantsLength pantsLength) {
-        super(type, gender, condition);
+        super("nadrág", gender, condition);
         this.pantsLength = pantsLength;
     }
 

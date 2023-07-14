@@ -8,7 +8,7 @@ public class TShirt extends Clothes {
     private boolean hasPattern;
 
     public TShirt(Gender gender, Condition condition, String color, boolean hasPattern) {
-        super("T-Clothes.Clothes.Shirt",gender,condition);
+        super("póló",gender,condition);
         this.color = color;
         this.hasPattern = hasPattern;
     }

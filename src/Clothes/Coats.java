@@ -8,7 +8,7 @@ public class Coats extends Clothes {
     private final CoatType coatType;
 
     public Coats(String type, Gender gender, Condition condition, CoatType coatType) {
-        super(type, gender, condition);
+        super("kabát", gender, condition);
         this.coatType = coatType;
     }
 
